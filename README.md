@@ -1,4 +1,4 @@
-Features currently this blog has:
+Features:
 
 -Users can Register with username, password, email and a image which will be displayed on their profile section.
 

@@ -38,6 +38,10 @@ Updates I am planning to bring:
  
  -Password reset.
  
- -Post views
+ -Post views.
  
- -Deployment to a server and SSL/TSL Certificate to enable Https
+ -Deployment to a server and SSL/TSL Certificate to enable Https.
+ 
+ -Comment system.
+ 
+ -Sitemap.

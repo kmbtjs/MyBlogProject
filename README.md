@@ -24,7 +24,7 @@ Features:
 
 Updates I am planning to bring:
 
- -Frontend has About page with little info in it. This page will include information about me, my project and my certificates.
+ -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
  
  -CRUD operations to Users.
  

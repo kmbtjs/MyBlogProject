@@ -10,6 +10,8 @@ Features currently this blog has:
 
 -Users can update their username, Email and Image. If upload happens successfully then green success message will show up and redirect user to their profile.
 
+![updatesuccess](https://user-images.githubusercontent.com/43895483/117128788-8b68a700-ada6-11eb-856a-a15c8d30eab4.png)
+
 -Users can logout from website.
 
 ![logout](https://user-images.githubusercontent.com/43895483/117127519-dc779b80-ada4-11eb-850a-5e907e8fe9ea.png)
@@ -17,6 +19,8 @@ Features currently this blog has:
 -Uploaded profile pics is stored 300px max by default.
 
 -At the home page all shared blogs has author infos like Author name, shared date, profile pic, blog title and blog content.
+
+![home](https://user-images.githubusercontent.com/43895483/117128632-54929100-ada6-11eb-817a-ecabdea74d12.png)
 
 Updates I am planning to bring:
 

@@ -1,6 +1,6 @@
-Features currently this blog has:
+Features:
 
--Users can Register with username, password, email and a image which will be displayed on their profile section.
+-Users can Register with their username, password, email and a image which will be displayed on their profile section. If no image was uploaded by user then default image will be put automatically by system.( Davy Jones pic (: )
 
 ![register](https://user-images.githubusercontent.com/43895483/117127285-915d8880-ada4-11eb-9367-c3ea6724332f.png)
 
@@ -8,7 +8,9 @@ Features currently this blog has:
 
 ![login](https://user-images.githubusercontent.com/43895483/117127330-a0dcd180-ada4-11eb-9f6e-38e5bafb4b63.png)
 
--Users can update their username, Email and Image. If upload happens successfully then green success message will show up and redirect user to their profile.
+-Users can update their username, Email and Image. If the upload is successful then green success message will show up and redirect user to profile.
+
+![updatesuccess](https://user-images.githubusercontent.com/43895483/117128788-8b68a700-ada6-11eb-856a-a15c8d30eab4.png)
 
 -Users can logout from website.
 
@@ -16,14 +18,18 @@ Features currently this blog has:
 
 -Uploaded profile pics is stored 300px max by default.
 
--At the home page all shared blogs has author infos like Author name, shared date, profile pic, blog title and blog content.
+-At the home page all posts has author infos like Author name, shared date, profile pic, post title and post content.
+
+![home](https://user-images.githubusercontent.com/43895483/117128632-54929100-ada6-11eb-817a-ecabdea74d12.png)
 
 Updates I am planning to bring:
 
- -Frontend has About page with little info in it. This page will include information about me, my project and my certificates.
+ -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
  
- -CRUD operations to Users.
+ -CRUD operations to posts for Users.
  
  -Password reset.
+ 
+ -Post views
  
  -Deployment to a server and SSL/TSL Certificate to enable Https

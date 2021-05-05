@@ -1,6 +1,6 @@
 Features:
 
--Users can Register with username, password, email and a image which will be displayed on their profile section.
+-Users can Register with username, password, email and a image which will be displayed on their profile section. If no image was uploaded by user then default image will be put automatically by system.( Davy Jones pic (: )
 
 ![register](https://user-images.githubusercontent.com/43895483/117127285-915d8880-ada4-11eb-9367-c3ea6724332f.png)
 
@@ -18,7 +18,7 @@ Features:
 
 -Uploaded profile pics is stored 300px max by default.
 
--At the home page all shared blogs has author infos like Author name, shared date, profile pic, blog title and blog content.
+-At the home page all posts has author infos like Author name, shared date, profile pic, post title and post content.
 
 ![home](https://user-images.githubusercontent.com/43895483/117128632-54929100-ada6-11eb-817a-ecabdea74d12.png)
 
@@ -29,5 +29,7 @@ Updates I am planning to bring:
  -CRUD operations for Users.
  
  -Password reset.
+ 
+ -Post views
  
  -Deployment to a server and SSL/TSL Certificate to enable Https

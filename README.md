@@ -1,6 +1,6 @@
 Features:
 
--Users can Register with their username, password, email and a image which will be displayed on their profile section. If no image was uploaded by user then default image will be put automatically by system.( Davy Jones pic (: )
+-Users can Register with their username, password, email and am image which will be displayed on their profile section. If no image was uploaded by user then default image will be put automatically by system.( Davy Jones pic (: )
 
 ![register](https://user-images.githubusercontent.com/43895483/117127285-915d8880-ada4-11eb-9367-c3ea6724332f.png)
 
@@ -22,14 +22,26 @@ Features:
 
 ![home](https://user-images.githubusercontent.com/43895483/117128632-54929100-ada6-11eb-817a-ecabdea74d12.png)
 
+(NEW!)
+
+-Users can now create a post when they are logged in.
+
+![Createpost](https://user-images.githubusercontent.com/43895483/117177124-57f34000-add9-11eb-9704-c9e70d106322.png)
+
+-Users can now update and delete their posts.(Every user can delete or update their own post.)
+
+![Updateanddelete](https://user-images.githubusercontent.com/43895483/117177222-73f6e180-add9-11eb-8a2e-cf8aa3976bd1.png)
+
 Updates I am planning to bring:
 
  -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
  
- -CRUD operations to posts for Users.
- 
  -Password reset.
  
- -Post views
+ -Post views.
  
- -Deployment to a server and SSL/TSL Certificate to enable Https
+ -Deployment to a server and SSL/TSL Certificate to enable Https.
+ 
+ -Comment system.
+ 
+ -Sitemap.

@@ -22,11 +22,19 @@ Features:
 
 ![home](https://user-images.githubusercontent.com/43895483/117128632-54929100-ada6-11eb-817a-ecabdea74d12.png)
 
+(NEW!)
+
+-Users can now create a post when they are logged in.
+
+![Createpost](https://user-images.githubusercontent.com/43895483/117177124-57f34000-add9-11eb-9704-c9e70d106322.png)
+
+-Users can now update and delete their posts.(Every user can delete or update their own post.)
+
+![Updateanddelete](https://user-images.githubusercontent.com/43895483/117177222-73f6e180-add9-11eb-8a2e-cf8aa3976bd1.png)
+
 Updates I am planning to bring:
 
  -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
- 
- -CRUD operations to posts for Users.
  
  -Password reset.
  

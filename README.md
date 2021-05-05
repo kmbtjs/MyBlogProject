@@ -8,7 +8,7 @@ Features:
 
 ![login](https://user-images.githubusercontent.com/43895483/117127330-a0dcd180-ada4-11eb-9f6e-38e5bafb4b63.png)
 
--Users can update their username, Email and Image. If upload successful then green success message will show up and redirect user to profile.
+-Users can update their username, Email and Image. If the upload is successful then green success message will show up and redirect user to profile.
 
 ![updatesuccess](https://user-images.githubusercontent.com/43895483/117128788-8b68a700-ada6-11eb-856a-a15c8d30eab4.png)
 

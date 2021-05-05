@@ -1,6 +1,6 @@
 Features:
 
--Users can Register with username, password, email and a image which will be displayed on their profile section. If no image was uploaded by user then default image will be put automatically by system.( Davy Jones pic (: )
+-Users can Register with their username, password, email and a image which will be displayed on their profile section. If no image was uploaded by user then default image will be put automatically by system.( Davy Jones pic (: )
 
 ![register](https://user-images.githubusercontent.com/43895483/117127285-915d8880-ada4-11eb-9367-c3ea6724332f.png)
 

@@ -32,13 +32,11 @@ Features:
 
 ![Updateanddelete](https://user-images.githubusercontent.com/43895483/117177222-73f6e180-add9-11eb-8a2e-cf8aa3976bd1.png)
 
+ -Password reset option with email verification.
+
 Updates I am planning to bring:
 
  -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
- 
- -Password reset.
- 
- -Post views.
  
  -Deployment to a server and SSL/TSL Certificate to enable Https.
  

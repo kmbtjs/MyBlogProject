@@ -45,3 +45,5 @@ Updates I am planning to bring:
  -Comment system.
  
  -Sitemap.
+ 
+ -Search feature

@@ -17,4 +17,20 @@
             <a class="btn btn-danger btn-sm mt-1 mb-1 mr-auto" href="{% url 'post-delete' object.id %}">Delete</a>
         </div>
     {% endif %}
+    <br><br>
+    <h2>Comments</h2>
+    <hr>
+    {% if not post.comments.all %}
+        <div class="text-muted mt-1">No Comments Yet</div>
+        <br>
+        <a href="{% url 'add-comment' post.pk %}">Add Comment</a>
+    {% else %}
+        {% for comment in post.comments.all %}
+            <strong>{{ comment.name }} - {{ comment.comment_date }}</strong>
+            <br>
+            {{ comment.comment }}
+            <br><br/>
+        {% endfor %}
+        <a href="{% url 'add-comment' post.pk %}">Add Comment</a>
+    {% endif %}
 {% endblock content %}

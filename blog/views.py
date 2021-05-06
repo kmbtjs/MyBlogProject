@@ -6,9 +6,10 @@ from django.views.generic import (
     DetailView, 
     CreateView,
     UpdateView,
-    DeleteView
+    DeleteView,
 )
-from .models import Post
+from .models import Post, Comment
+from .forms import CommentForm
 
 
 def home(request):
@@ -50,6 +51,18 @@ class PostCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
 
+class AddCommentView(CreateView):
+    model = Comment
+    form_class = CommentForm
+    template_name = 'blog/add_comment.html'
+    success_url = '/'
+    
+    def form_valid(self, form):
+        form.instance.name = self.request.comment
+        Comment.save()
+        return super().form_valid(form)
+
+
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
     fields = ['title', 'content']
@@ -74,6 +87,7 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         if self.request.user == post.author:
             return True
         return False
+
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})

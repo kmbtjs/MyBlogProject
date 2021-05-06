@@ -38,8 +38,6 @@ Updates I am planning to bring:
 
  -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
  
- -Post views.
- 
  -Deployment to a server and SSL/TSL Certificate to enable Https.
  
  -Comment system.

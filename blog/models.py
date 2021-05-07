@@ -29,3 +29,11 @@ class Comment(models.Model):
     def __str__(self):
         return f'{self.post.title} {self.name}'
 
+
+class Portfolio(models.Model):
+    image = models.ImageField(upload_to='blog/media')
+    summary = models.CharField(max_length=250)
+
+    def __str__(self):
+        return f'{self.summary}'
+

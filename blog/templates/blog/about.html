@@ -1,4 +1,121 @@
-{% extends "blog/base.html" %}
-{% block content %}
-    <h1>About Me</h1>
-{% endblock content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+
+    {% if title %}
+    <title>Django Blog - {{ title }}</title>
+    {% else %}
+        <title>Django Blog</title>
+    {% endif %}
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+          <div class="container">
+            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+              <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
+                <a class="nav-item nav-link" href="{% url 'blog-about' %}">About Me</a>
+              </div>
+              <!-- Navbar Right Side -->
+              <div class="navbar-nav">
+                {% if user.is_authenticated %}
+                  <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+                  <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                  <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                  <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                  <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+</body>
+</html>
+<section class="text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">Kamer Berat Topal</h1>
+      <p class="lead text-muted">Welcome to my portfolio page. Below you can see my Certificates and Projects. I am looking for job&internship opportunities to improve myself with hands-on experience. Feel free to e-mail me via E-mail Me Button.</p>
+      <p>
+      <h2 class="fw-light">Who am I ?</h2>
+      <p class="lead text-muted"><ul>
+          <li>
+              -Hardworking and driven personality.
+          </li>
+          <li>
+              -Team player. Love working with others in a project.
+          </li>
+          <li>
+              -Motivated. I have incredible motivation about programming and web development.
+          </li>
+          <li>
+              -Full-stack Developer. I want to be Django Full-stack developer and improve myself at this field.
+          </li>
+          <li>
+              -Comfortable at using VCS systems like Git, GitHub.
+          </li>
+          <li>
+              -I developed 6 projects;
+              <li>
+                -E-Commerce Backend with Solid principles and AOP Techniques using .net,MVC
+              </li>
+              <li>
+                -Car Rental Backend with Solid principles and AOP Techniques using .net,MVC
+              </li>
+              <li>
+                -Basic Pet Adoption Website Project using Django Framework
+              </li>
+              <li>
+                -My Personal Portfolio Website Project using Django Framework
+              </li>
+              <li>
+                -Pizza Order Website Project using Django Framework.
+              </li>
+              <li>
+                -Blog Website Project using Django Framework
+              </li>
+          </li>
+          <li>
+              -Comfortable at writing queries, creating and managing Database with SQL. 
+          </li>
+      </ul></p>
+        <a href="mailto:kamertopalxp@gmail.com" class="btn btn-primary my-2">Email Me</a>
+        <a href="https://github.com/Kamerthedev" class="btn btn-primary my-2">GitHub</a>
+        <a href="https://www.linkedin.com/in/kamer-berat-topal-675047178/" class="btn btn-primary my-2">LinkedIn</a>
+      </p>
+      <img src="/media/profile_pics/a.png" height=250></img>
+      <hr>
+<div>
+</section>
+    <section class="text-center"><img src="/media/blog/media/Kamer_Berat_Topal_Django_Certificate.png" height="400">
+    <img src="/media/blog/media/Kamer_Berat_Topal_Django_Certificate2.png" height="400">
+    <img src="/media/blog/media/Kamer_Berat_Topal_DjangoForms_Certificate.png" height="400">
+</div>
+<div>
+    <img src="/media/blog/media/Kamer_Berat_Topal_AI_Certificate_English.png" height="400">
+    <img src="/media/blog/media/Kamer_Berat_Topal_SQL_Certificate_English.jpg" height="400">
+    <img src="/media/blog/media/Kamer_Berat_Topal_Python_OOP_Certificate.png" height="400">
+</div>
+<div>
+    <img src="/media/blog/media/Kamer_Berat_Topal_Git_Certificate.png" height="400">
+    <img src="/media/blog/media/Kamer_Berat_Topal_Git_Certificate2.png" height="400">
+</div>
+<div>
+</section>

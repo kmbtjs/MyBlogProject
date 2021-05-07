@@ -35,10 +35,10 @@ Features:
  -Password reset option with email verification.
  
  -Comment system.(Needs some work.)
+ 
+ -About Me page now has info about me, my certificates and my projects.
 
 Updates I am planning to bring:
-
- -Frontend has About page with little info in it. This page will include information about me, my projects and my certificates.
  
  -Deployment to a server and SSL/TSL Certificate to enable Https.
  
